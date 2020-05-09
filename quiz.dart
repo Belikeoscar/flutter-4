@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 class IconQuiz{
   var images = [
-    "github", "gmail", "google", "googleplus", "insta"
+    "github", "gmail", "google", "googleplus", "insta", "link", "play", "skype", "slack", "twitter"
   ];
 
   var questions = [
@@ -11,16 +11,29 @@ class IconQuiz{
     "Owned by a company as a messaging system.",
     "A search engine",
     "an extention to the search engine.",
-    "Best imaging social system."
+    "Best imaging social system.",
+    "Best professional/freelancer Network.",
+    "The best app store.",
+    "one of these is the words best telepresence system.",
+    "A function specific social network.",
+    "the Blue bird."
   ];
 
   var choices = [
     ["bitbucket", "Oracle", "kittycon", "github"],
     ["gmail", "yahoomail", "messenger", "whatsapp"],
+    ["Google", "wikipedia", "gokaka", "whatsapp"],
+    ["Google", "googleplus", "youtube", "github"],
+    ["Facebook", "instagram", "Twitter", "likee"],
+    ["messenger", "wikipedia", "youtube", "linkedin"],
+    ["verison", "wakidi", "playstore", "waptrick"],
+    ["Facebook", "tiktok", "skype", "zoom"],
+    ["Bitbucket", "konami", "android", "slack"],
+    ["eagle", "twitter", "fly", "kik"]
   ];
 
   var correctAnswers = [
-    "github", "gmail", ""
+    "github", "gmail", "Google", "googleplus", "instagram", "linkedin", "playstore", "skype", "slack", "twitter"
   ];
 }
 var finalScore = 0;
