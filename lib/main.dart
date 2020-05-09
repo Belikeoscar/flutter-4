@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'quiz.dart';
+import 'package:gameo/quiz.dart';
 void main(){
   runApp(
     new MaterialApp(
