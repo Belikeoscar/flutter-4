@@ -90,8 +90,8 @@ class QuizState extends State<Quiz>{
                   children: <Widget>[
                     new MaterialButton(
                         minWidth: 120.0,
-                        color: Colors.amberAccent
-                        onPressed: (){
+                        color: Colors.amberAccent,
+                    onPressed: (){
 
                           if(quiz.choices[questionNumber][0] == quiz.correctAnswers[questionNumber]){
                             debugPrint("Correct");
@@ -112,7 +112,7 @@ class QuizState extends State<Quiz>{
             //button 2
       new MaterialButton(
       minWidth: 120.0,
-          color: Colors.amberAccent
+          color: Colors.amberAccent,
           onPressed: (){
 
     if(quiz.choices[questionNumber][1] == quiz.correctAnswers[questionNumber]){
@@ -139,7 +139,7 @@ class QuizState extends State<Quiz>{
                   //button3
                 new MaterialButton(
                   minWidth: 120.0,
-                  color: Colors.amberAccent
+                  color: Colors.amberAccent,
                   onPressed: (){
                     if(quiz.choices[questionNumber][2] == quiz.correctAnswers[questionNumber]){
                     debugPrint("CORRECT");
@@ -160,7 +160,7 @@ class QuizState extends State<Quiz>{
                   //button4
     new MaterialButton(
     minWidth: 120.0,
-    color: Colors.amberAccent
+    color: Colors.amberAccent,
     onPressed: (){
 
     if(quiz.choices[questionNumber][3] == quiz.correctAnswers[questionNumber]){
